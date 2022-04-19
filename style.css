@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+label{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+    padding: 5px;
+    float:left;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 60vh;
+    height: 60vh;
+    background-color:gray;
+    border: 1px solid black;
+}
